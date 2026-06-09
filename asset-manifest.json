@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Prajil-Portfolio/static/css/main.85cb780c.css",
-    "main.js": "/Prajil-Portfolio/static/js/main.2fd28023.js",
+    "main.js": "/Prajil-Portfolio/static/js/main.bd92e964.js",
     "static/js/453.676b9ed8.chunk.js": "/Prajil-Portfolio/static/js/453.676b9ed8.chunk.js",
     "static/media/bootstrap-icons.woff?": "/Prajil-Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/Prajil-Portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/Prajil-Portfolio/index.html",
     "main.85cb780c.css.map": "/Prajil-Portfolio/static/css/main.85cb780c.css.map",
-    "main.2fd28023.js.map": "/Prajil-Portfolio/static/js/main.2fd28023.js.map",
+    "main.bd92e964.js.map": "/Prajil-Portfolio/static/js/main.bd92e964.js.map",
     "453.676b9ed8.chunk.js.map": "/Prajil-Portfolio/static/js/453.676b9ed8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85cb780c.css",
-    "static/js/main.2fd28023.js"
+    "static/js/main.bd92e964.js"
   ]
 }
