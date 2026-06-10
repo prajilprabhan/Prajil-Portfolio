@@ -1,0 +1,77 @@
+/* Base container configurations */
+#education-section {
+    position: relative;
+    z-index: 1;
+}
+
+/* The vertical roadmap line */
+.roadmap-track {
+    border-left: 3px dashed rgba(13, 110, 253, 0.4); /* Dashed road line feel */
+    margin-left: 15px;
+    padding-left: 0;
+    position: relative;
+}
+
+/* Timeline item individual wrap */
+.roadmap-item {
+    position: relative;
+    padding-left: 35px;
+}
+
+/* Cards containing text content */
+.roadmap-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.roadmap-card:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3) !important;
+    border-color: rgba(13, 110, 253, 0.3);
+}
+
+/* Roadmap map-pins (Dots) */
+.roadmap-dot {
+    display: block;  
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #6c757d; 
+    border: 3px solid #121212; /* Match your app background */
+    left: -10px;  
+    top: 24px;   
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+/* Highlight style for ongoing/pursuing step */
+.roadmap-dot.active-dot {
+    background-color: #0d6efd;
+    box-shadow: 0 0 0 5px rgba(13, 110, 253, 0.3);
+}
+
+/* When hovering a card, glow its matching roadmap point */
+.roadmap-item:hover .roadmap-dot {
+    background-color: #0dcaf0;
+    box-shadow: 0 0 0 6px rgba(13, 202, 240, 0.25);
+}
+
+/* Smooth float animation for the graduation character side illustration */
+.floating-animation {
+    animation: floating 4s ease-in-out infinite;
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes floating {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Extra typography adjustments */
+.tracking-wider {
+    letter-spacing: 2px;
+}

@@ -1,0 +1,77 @@
+/* Custom Portfolio Deep-Indigo Glass Navbar */
+.custom-navbar {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari Support */
+  background-color: rgba(15, 12, 32, 0.75) !important; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Base typography colors */
+.brand-logo {
+  color: #ffffff !important;
+  letter-spacing: 1.5px;
+}
+
+/* Target neon highlight accent color matching "SKILLS" */
+.text-accent {
+  color: #00E5FF !important;
+}
+
+/* Hover Effects for Navigation Links */
+.nav-link-custom {
+  color: #a5a1b8 !important; /* Soft muted gray-purple text */
+  position: relative;
+  font-weight: 500;
+  transition: color 0.25s ease;
+}
+
+.nav-link-custom:hover {
+  color: #00E5FF !important; /* Glows cyan on hover */
+}
+
+/* Neon underline transition (Desktop only) */
+@media (min-width: 992px) {
+  .nav-link-custom::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 50%;
+    background-color: #00E5FF;
+    box-shadow: 0 0 8px #00E5FF;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+
+  .nav-link-custom:hover::after {
+    width: 80%;
+  }
+}
+
+/* Custom Styled Link Button matching your bright action blue */
+.cta-link-btn {
+  background-color: #0088FF;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 14px rgba(0, 136, 255, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.cta-link-btn:hover {
+  color: #ffffff;
+  background-color: #0077e6;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 229, 255, 0.4) !important; /* Swaps to cyan glow on hover */
+}
+
+/* Custom styling to tint the mobile hamburger button white */
+.custom-toggler {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
