@@ -81,6 +81,15 @@ const NavBar = () => {
             >
               Let's Talk
             </a>
+
+            {/* CV Download Button */}
+            <a
+              href={process.env.PUBLIC_URL + "/Prajil P.pdf"}
+              download="Prajil P.pdf"
+              className="ms-lg-3 mt-3 mt-lg-0 px-4 py-2 rounded-pill fw-semibold cv-nav-btn"
+            >
+              <i className="bi bi-download me-2"></i>Download CV
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

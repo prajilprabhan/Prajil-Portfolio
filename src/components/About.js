@@ -9,7 +9,7 @@ function About() {
         {/* Left Column: Text */}
         <div className="col-lg-8 col-md-7 text-start">
           <h2 className="display-4 fw-bold text-primary mb-3">Prajil P</h2>
-          <p className="bio lead mb-0">
+          <p className="bio lead mb-3">
             Hi, I'm Prajil, a passionate Full-Stack Developer dedicated to
             creating modern, user-friendly, and high-performance web
             applications. I enjoy transforming complex ideas into intuitive
@@ -19,6 +19,15 @@ function About() {
             applications that are not only visually appealing but also scalable,
             efficient, and reliable.
           </p>
+          <div className="mt-4">
+            <a
+              href={process.env.PUBLIC_URL + "/Prajil P.pdf"}
+              download="Prajil P.pdf"
+              className="btn cv-btn rounded-pill px-4 py-2 fw-semibold"
+            >
+              <i className="bi bi-download me-2"></i>Download CV
+            </a>
+          </div>
         </div>
 
         {/* Right Column: Image Wrapper with Orbiting Social Icons */}

@@ -9,6 +9,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Achievements from "./components/Achievements";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
      <Skills/>
      <Achievements/>
      <Contact/>
+     <Footer/>
      
     </div>
   );
