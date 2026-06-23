@@ -8,7 +8,7 @@ function About() {
       <div className="row align-items-center g-4">
         {/* Left Column: Text */}
         <div className="col-lg-8 col-md-7 text-start">
-          <h2 className="display-4 fw-bold text-primary mb-3">Prajil P</h2>
+          <h2 className="display-4 fw-bold profile-name mb-3">Prajil P</h2>
           <p className="bio lead mb-3">
             Hi, I'm Prajil, a passionate Full-Stack Developer dedicated to
             creating modern, user-friendly, and high-performance web

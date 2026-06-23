@@ -7,7 +7,6 @@
   position: relative;
   background: linear-gradient(170deg, #0f0c20 0%, #09071a 60%, #060414 100%);
   overflow: hidden;
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: #a5a1b8;
 
   /* fade-in-up on scroll */

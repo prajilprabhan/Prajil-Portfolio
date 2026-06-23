@@ -83,7 +83,7 @@ function Project() {
                     >
                       <i className="bi bi-github"></i> GitHub
                     </a>
-                    {project.liveLink !== "#" && (
+                    {project.liveLink && project.liveLink !== "#" && (
                       <a
                         href={project.liveLink}
                         target="_blank"

@@ -1,9 +1,15 @@
 /* About.css */
 .bio {
-    font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.85);
+}
+
+.profile-name {
+    background: linear-gradient(90deg, #00E5FF 0%, #0088FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 /* Wrapper context for positioning elements around the profile circle */
@@ -31,9 +37,9 @@
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #7f2f2f;     
-    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.3); 
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 5px solid rgba(0, 229, 255, 0.3);     
+    box-shadow: 0px 0px 25px rgba(0, 229, 255, 0.25); 
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.4s ease, box-shadow 0.4s ease;
 }
 
 /* Subtle background orbit path outlines */
@@ -85,8 +91,8 @@
 /* Dynamic interactive scaling across parent context elements */
 .profile-container:hover .prajil {
     transform: scale(1.04);
-    border-color: #9c3a3a;
-    box-shadow: 0px 0px 30px rgba(13, 202, 240, 0.4);
+    border-color: #00E5FF;
+    box-shadow: 0px 0px 35px rgba(0, 229, 255, 0.65);
 }
 
 .profile-container:hover .social-node:not(:hover) {
