@@ -3,7 +3,7 @@ import './Contact.css'; // Importing the separate stylesheet
 
 const ContactSection = () => {
   return (
-    <section className="contact-section" id ="contact-section">
+    <section className="contact-section" id="contact-section">
       <div className="contact-header">
         <h2 className="contact-title">
           GET IN <span className="contact-title-accent">TOUCH</span>
@@ -20,9 +20,9 @@ const ContactSection = () => {
         </a>
 
         {/* Phone Card - Native device dialer action */}
-        <a href="tel:+919876543210" className="contact-card">
+        <a href="tel:+917902210559" className="contact-card">
           <span className="contact-label">Call Me</span>
-          <span className="contact-value">+91 XXXXXXXXXX</span>
+          <span className="contact-value">+91 7902210559</span>
         </a>
 
         {/* Address Card */}
